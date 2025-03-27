@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { FaGithub, FaExternalLinkAlt, FaSearch, FaCode, FaPython, FaReact, FaShoppingCart, FaBook, FaQuran, FaTools, FaBrain, FaFileAlt } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaSearch, FaCode, FaShoppingCart, FaBook, FaQuran, FaTools, FaBrain, FaFileAlt } from 'react-icons/fa';
 import { Button } from "@/components/ui/button";
 
 export default function ProjectsSection() {

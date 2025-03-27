@@ -10,9 +10,7 @@ import {
   FaBars, 
   FaTimes, 
   FaYoutube, 
-  FaInstagram, 
-  FaRobot, 
-  FaFileAlt
+  FaInstagram,
 } from 'react-icons/fa';
 import { Button } from "@/components/ui/button";
 
@@ -103,38 +101,38 @@ export default function Navbar() {
             ))}
 
             <div className="flex items-center space-x-2 ml-4">
-              <a 
+              <Link 
                 href="https://github.com/riaz-hussains-saifi" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-dark-800 hover:bg-primary-600 transition-colors duration-300"
               >
                 <FaGithub className="text-gray-300 hover:text-white" size={18} />
-              </a>
-              <a 
+              </Link>
+              <Link 
                 href="https://www.linkedin.com/in/riaz-hussain-saifi" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-dark-800 hover:bg-primary-600 transition-colors duration-300"
               >
                 <FaLinkedin className="text-gray-300 hover:text-white" size={18} />
-              </a>
-              <a 
+              </Link>
+              <Link 
                 href="https://www.youtube.com/@Saifi_Developer" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-dark-800 hover:bg-primary-600 transition-colors duration-300"
               >
                 <FaYoutube className="text-gray-300 hover:text-white" size={18} />
-              </a>
-              <a 
+              </Link>
+              <Link 
                 href="https://www.instagram.com/saifi_developer/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-dark-800 hover:bg-primary-600 transition-colors duration-300"
               >
                 <FaInstagram className="text-gray-300 hover:text-white" size={18} />
-              </a>
+              </Link>
             </div>
           </nav>
 
@@ -171,38 +169,38 @@ export default function Navbar() {
               ))}
                        
               <div className="flex px-4 pt-4 border-t border-dark-700 mt-3 space-x-3">
-                <a 
+                <Link 
                   href="https://github.com/riaz-hussains-saifi" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-dark-700 hover:bg-primary-600 transition-colors duration-300"
                 >
                   <FaGithub className="text-gray-300" size={18} />
-                </a>
-                <a 
+                </Link>
+                <Link 
                   href="https://www.linkedin.com/in/riaz-hussain-saifi" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-dark-700 hover:bg-primary-600 transition-colors duration-300"
                 >
                   <FaLinkedin className="text-gray-300" size={18} />
-                </a>
-                <a 
+                </Link>
+                <Link 
                   href="https://www.youtube.com/@Saifi_Developer" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-dark-700 hover:bg-primary-600 transition-colors duration-300"
                 >
                   <FaYoutube className="text-gray-300" size={18} />
-                </a>
-                <a 
+                </Link>
+                <Link 
                   href="https://www.instagram.com/saifi_developer/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-dark-700 hover:bg-primary-600 transition-colors duration-300"
                 >
                   <FaInstagram className="text-gray-300" size={18} />
-                </a>
+                </Link>
               </div>
             </motion.nav>
           )}

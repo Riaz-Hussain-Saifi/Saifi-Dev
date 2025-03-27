@@ -116,14 +116,14 @@ export default function AboutSection() {
             <h3 className="text-3xl font-bold mb-6">Full Stack Developer & AI Enthusiast</h3>
             
             <p className="text-gray-300 mb-6 leading-relaxed">
-              I'm <span className="text-primary-500 font-medium">Riaz Hussain Saifi</span>, a passionate Full Stack Developer with 2 years of experience in building
+              I am <span className="text-primary-500 font-medium">Riaz Hussain Saifi</span>, a passionate Full Stack Developer with 2 years of experience in building
               modern web applications. My journey in web development began with a fascination for creating interactive and user-friendly interfaces,
               which led me to explore both frontend and backend technologies.
             </p>
             
             <p className="text-gray-300 mb-8 leading-relaxed">
               I specialize in frontend technologies like React, Next.js, and Tailwind CSS, as well as backend technologies including Node.js and Python.
-              Currently, I'm studying AI and machine learning at GIAIC to expand my skill set and integrate cutting-edge
+              Currently, I am studying AI and machine learning at GIAIC to expand my skill set and integrate cutting-edge
               technologies into web development.
             </p>
             

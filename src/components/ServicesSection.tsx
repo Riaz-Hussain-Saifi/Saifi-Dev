@@ -453,7 +453,7 @@ export default function ServicesSection() {
           <h3 className="text-2xl font-bold mb-6">Need a Custom Solution?</h3>
           <p className="text-gray-400 max-w-2xl mx-auto mb-8">
             I provide tailored development solutions to meet your specific needs and requirements.
-            Let's discuss your project and bring your vision to life.
+            Let us discuss your project and bring your vision to life.
           </p>
           <a href="#contact" className="px-4 py-3 bg-primary-600 text-white font-semibold rounded-lg shadow-md hover:bg-primary-700 transition-all duration-300 transform hover:scale-105 inline-flex items-center">
             Get in Touch

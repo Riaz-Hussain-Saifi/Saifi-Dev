@@ -103,7 +103,7 @@ export default function HeroSection() {
             </motion.span>
 
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Hello, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-secondary-600">Riaz Hussain Saifi</span>
+              Hello, I am <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-secondary-600">Riaz Hussain Saifi</span>
             </h1>
 
             <h2 className="text-2xl md:text-4xl font-bold mb-6 flex">
@@ -141,7 +141,7 @@ export default function HeroSection() {
                 href="#contact"
                 className="px-4 py-3 bg-primary-600 text-white font-semibold rounded-lg shadow-md hover:bg-primary-700 transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
               >
-                Let's work together
+                Let us work together
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                 </svg>

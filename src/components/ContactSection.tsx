@@ -79,7 +79,7 @@ function ContactSection() {
       
       // Reset status after 5 seconds
       setTimeout(() => setSubmitStatus(null), 5000);
-    } catch (error) {
+    } catch {
       setIsSubmitting(false);
       setSubmitStatus('error');
     }
@@ -136,16 +136,16 @@ function ContactSection() {
           </motion.span>
           <h2 className="section-heading">Get In Touch</h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Have a project in mind? Let's work together to bring your ideas to life
+            Have a project in mind? Let us work together to bring your ideas to life
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
           <div className="lg:col-span-2">
-            <h3 className="text-2xl font-bold mb-6">Let's Discuss Your Project</h3>
+            <h3 className="text-2xl font-bold mb-6">Let us Discuss Your Project</h3>
             <p className="text-gray-300 mb-8">
-              I'm always open to new opportunities and collaborations. Whether you have a project
-              inquiry, a question about my services, or just want to say hello, I'd love to hear from you.
+              I am always open to new opportunities and collaborations. Whether you have a project
+              inquiry, a question about my services, or just want to say hello, I would be delighted to hear from you..
             </p>
 
             <div className="space-y-6 mb-8">
@@ -264,7 +264,7 @@ function ContactSection() {
                     <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                     </svg>
-                    Your message has been sent successfully! I'll get back to you soon.
+                    Your message has been sent successfully! I will get back to you soon.
                   </div>
                 </motion.div>
               )}
@@ -320,7 +320,7 @@ function ContactSection() {
 
                   <div>
                     <label htmlFor="service" className="block mb-2 text-gray-300">
-                      Service You're Interested In
+                      Service You are Interested In
                     </label>
                     <select
                       id="service"
@@ -368,7 +368,7 @@ function ContactSection() {
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
-                    rows="5"
+                    rows={5}
                     className="w-full p-3 bg-dark-800 border border-dark-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     required
                   ></textarea>
